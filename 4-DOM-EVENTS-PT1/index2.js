@@ -12,6 +12,8 @@ function changeH1(input) {
 }
 
 function escolha() {
-  var x = document.getElementById("mySelect").value;
-  document.getElementById("demo").innerHTML = "Time do coração: " + x;
+  let times = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "Time do coração: " + times;
 }
+
+console.log(times);

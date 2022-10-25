@@ -1,0 +1,15 @@
+div {
+
+  width: 100px;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: #8a2be2;
+  color: aliceblue;
+  border-radius: 10px;
+
+}
+
+img {
+  width: 200px;
+  margin-bottom: 50px;
+}
