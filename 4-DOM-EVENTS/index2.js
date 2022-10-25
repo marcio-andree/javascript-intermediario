@@ -11,3 +11,7 @@ function changeH1(input) {
   h1.innerText = input.value;
 }
 
+function escolha() {
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "Time do coração: " + x;
+}
