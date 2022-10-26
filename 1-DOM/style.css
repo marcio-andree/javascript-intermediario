@@ -1,3 +1,6 @@
-.paragrafo {
-  color: red;
+div {
+  color: white;
+  background-color: blueviolet;
+  width: 50px;
+  padding:10px ;
 }

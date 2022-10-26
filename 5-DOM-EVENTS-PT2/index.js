@@ -4,6 +4,6 @@ function ligado(elemento) {
 }
 
 function desligado(elemento) {
-  elemento.style.background = "#8a2be2";
+  elemento.style.backgroundColor = "#8a2be2";
 
 }

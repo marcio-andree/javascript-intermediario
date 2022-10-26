@@ -11,9 +11,11 @@ function changeH1(input) {
   h1.innerText = input.value;
 }
 
+// função escolha time
+
 function escolha() {
   let times = document.getElementById("mySelect").value;
-  document.getElementById("demo").innerHTML = "Time do coração: " + times;
+  let demo = document.getElementById("demo");
+  demo.innerHTML = "Times do coração: " + times; // <--> document.getElementById("demo").innerHTML = "Time do coração: " + times;
 }
 
-console.log(times);
