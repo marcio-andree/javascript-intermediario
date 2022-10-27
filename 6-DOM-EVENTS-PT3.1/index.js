@@ -10,5 +10,6 @@ function mouseSobre(){
 }
 
 function mouseFora(){
-  this.innerText = "TITULO PRINCIPAL";
+  this.innerHTML = "<h1> TITULO PRINCIPAL </h1>";
+
 }
