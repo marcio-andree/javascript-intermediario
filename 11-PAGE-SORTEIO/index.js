@@ -7,7 +7,7 @@ let pessoas = ["Pedro", "Arrasca", "Gabi","Everton R.",
 function sortear() {
  let numeroPessoas  = pessoas.length;
  let numSorte = Math.floor(Math.random() * numeroPessoas);
- document.getElementById("display").innerHTML = pessoas[numSorte];
+ document.getElementById("display").innerHTML =  pessoas[numSorte];
 }
 
 // Outra forma de fazer
